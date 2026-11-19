@@ -4,7 +4,7 @@ A Korean-language, single-user Todo app built with Next.js. Tasks are stored in 
 
 ## Set up the database
 
-Create a Turso database and copy `.env.example` to `.env.local` in this project directory. Set the database URL and auth token in `.env.local`; never commit that file.
+Create a Turso database. If `.env.local` does not exist in this project directory, copy `.env.example` to create it. If it already exists, keep it and verify that it contains the database URL and auth token. Never commit `.env.local`.
 
 The app creates its task table on first use.
 
